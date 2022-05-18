@@ -1,0 +1,12 @@
+POST http://localhost:8080/helloworld
+Accept: application/json
+Content-Type: application/json
+
+{
+  "messages": [
+    {
+      "message": "Hello World!",
+      "status": 0
+    }
+  ]
+}
